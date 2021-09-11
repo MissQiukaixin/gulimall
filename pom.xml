@@ -16,4 +16,10 @@
         <module>gulimall-member</module>
         <module>gulimall-product</module>
     </modules>
+
+    <dependencyManagement>
+        <dependencies>
+
+        </dependencies>
+    </dependencyManagement>
 </project>
