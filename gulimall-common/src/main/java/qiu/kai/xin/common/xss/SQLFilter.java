@@ -8,8 +8,9 @@
 
 package qiu.kai.xin.common.xss;
 
-import io.renren.common.exception.RRException;
+
 import org.apache.commons.lang.StringUtils;
+import qiu.kai.xin.common.exception.RRException;
 
 /**
  * SQL过滤

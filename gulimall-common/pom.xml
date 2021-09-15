@@ -14,6 +14,7 @@
         <lombok.version>1.18.12</lombok.version>
         <httpcoment.version>4.4.14</httpcoment.version>
         <commons.lang.version>2.6</commons.lang.version>
+        <mysql.connector.version>8.0.26</mysql.connector.version>
     </properties>
 
     <artifactId>gulimall-common</artifactId>
@@ -24,6 +25,12 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <version>${lombok.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql.connector.version}</version>
         </dependency>
         <dependency>
             <groupId>com.baomidou</groupId>
@@ -40,6 +47,14 @@
             <groupId>commons-lang</groupId>
             <artifactId>commons-lang</artifactId>
             <version>${commons.lang.version}</version>
+        </dependency>
+
+        <!--排除servelt-api包-->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 

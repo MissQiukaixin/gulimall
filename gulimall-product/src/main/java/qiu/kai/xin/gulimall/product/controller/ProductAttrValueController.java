@@ -22,7 +22,7 @@ import qiu.kai.xin.common.utils.R;
  *
  * @author qiukaixin
  * @email 501411356@qq.com
- * @date 2021-09-13 22:07:49
+ * @date 2021-09-15 20:10:32
  */
 @RestController
 @RequestMapping("product/productattrvalue")

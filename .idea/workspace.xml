@@ -5,22 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c422e045-aaed-458d-bfea-a5b93217696e" name="Default Changelist" comment="qiu">
-      <change afterPath="$PROJECT_DIR$/gulimall-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/qiu/kai/xin/common/utils/Constant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/qiu/kai/xin/common/utils/PageUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/qiu/kai/xin/common/utils/Query.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/qiu/kai/xin/common/utils/R.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/qiu/kai/xin/common/xss/HTMLFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/qiu/kai/xin/common/xss/SQLFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/qiu/kai/xin/common/xss/XssFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/qiu/kai/xin/common/xss/XssHttpServletRequestWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-coupon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-coupon/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-member/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-member/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-order/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-product/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulimall-ware/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-ware/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/renren-fast/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-fast/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/qiu/kai/xin/common/exception/RRException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulimall-product/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/qiu/kai/xin/common/xss/SQLFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-common/src/main/java/qiu/kai/xin/common/xss/SQLFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/qiu/kai/xin/common/xss/XssFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-common/src/main/java/qiu/kai/xin/common/xss/XssHttpServletRequestWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/GulimallProductApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/controller/CommentReplayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/controller/CommentReplayController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/controller/ProductAttrValueController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/controller/ProductAttrValueController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/controller/SkuImagesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/controller/SkuImagesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/controller/SkuInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/controller/SkuInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/controller/SkuSaleAttrValueController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/controller/SkuSaleAttrValueController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/controller/SpuCommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/controller/SpuCommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/controller/SpuImagesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/controller/SpuImagesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/controller/SpuInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/controller/SpuInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/controller/SpuInfoDescController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/controller/SpuInfoDescController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/controller/UndoLogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/controller/UndoLogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/dao/CategoryBrandRelationDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/dao/CategoryBrandRelationDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/dao/CommentReplayDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/dao/CommentReplayDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/dao/SkuImagesDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/dao/SkuImagesDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/dao/SkuInfoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/dao/SkuInfoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/dao/SkuSaleAttrValueDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/dao/SkuSaleAttrValueDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/dao/SpuCommentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/dao/SpuCommentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/dao/SpuImagesDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/dao/SpuImagesDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/dao/SpuInfoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/dao/SpuInfoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/dao/SpuInfoDescDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/dao/SpuInfoDescDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/dao/UndoLogDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/dao/UndoLogDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/entity/CategoryBrandRelationEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/entity/CategoryBrandRelationEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/entity/CommentReplayEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/entity/CommentReplayEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/entity/SkuImagesEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/entity/SkuImagesEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/entity/SkuInfoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/entity/SkuInfoEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/entity/SkuSaleAttrValueEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/entity/SkuSaleAttrValueEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/entity/SpuCommentEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/entity/SpuCommentEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/entity/SpuImagesEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/entity/SpuImagesEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/entity/SpuInfoDescEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/entity/SpuInfoDescEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/entity/SpuInfoEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/entity/SpuInfoEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/entity/UndoLogEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/entity/UndoLogEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/service/CategoryBrandRelationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/service/CategoryBrandRelationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/service/CommentReplayService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/service/CommentReplayService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/service/SkuImagesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/service/SkuImagesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/service/SkuInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/service/SkuInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/service/SkuSaleAttrValueService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/service/SkuSaleAttrValueService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/service/SpuCommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/service/SpuCommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/service/SpuImagesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/service/SpuImagesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/service/SpuInfoDescService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/service/SpuInfoDescService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/service/SpuInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/service/SpuInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/service/UndoLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/main/java/qiu/kai/xin/gulimall/product/service/UndoLogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulimall-product/src/test/java/qiu/kai/xin/gulimall/product/GulimallProductApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/gulimall-product/src/test/java/qiu/kai/xin/gulimall/product/GulimallProductApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +61,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
@@ -96,7 +129,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.80daima">
+  <component name="RunManager" selected="JUnit.GulimallProductApplicationTests.contextLoads">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -104,6 +137,22 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GulimallProductApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gulimall-product" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="qiu.kai.xin.gulimall.product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="qiu.kai.xin.gulimall.product" />
+      <option name="MAIN_CLASS_NAME" value="qiu.kai.xin.gulimall.product.GulimallProductApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,6 +208,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GulimallProductApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
